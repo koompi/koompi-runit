@@ -1,4 +1,4 @@
-## Runit init scripts for void
+## Runit init scripts for KOOMPI
 
 This repository contains the runit init scripts for the Void Linux distribution.
 
@@ -15,7 +15,7 @@ difference that I'm trying to avoid the bash dependency.
 ### How to use it
 
 runit is used by default in the Void distribution.
-    
+
 To see enabled services for "current" runlevel:
 
     $ ls -l /var/service/
@@ -35,14 +35,5 @@ To disable and remove a service:
 To view status of all services for "current" runlevel:
 
     # sv status /var/service/*
-    
+
 Feel free to send patches and contribute with improvements!
-
-## Copyright
-
-void-runit is in the public domain.
-
-To the extent possible under law, the creator of this work has waived
-all copyright and related or neighboring rights to this work.
-
-http://creativecommons.org/publicdomain/zero/1.0/
